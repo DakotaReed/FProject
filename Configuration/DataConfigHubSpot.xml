@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Environment>
+
+    <!-- Web -->
+    <PlatformNameOfTest>web</PlatformNameOfTest>
+    <BrowserType>chrome</BrowserType>
+    <URL>https://www.hubspot.com/</URL>
+
+    <!-- Expected Results -->
+    <x_AxisOfElementSearchMAX>987</x_AxisOfElementSearchMAX>
+    <y_AxisOfElementSearch>14</y_AxisOfElementSearch>
+    <x_AxisOfElementSearch1200_700>812</x_AxisOfElementSearch1200_700>
+
+    <ResultsListSearch>10</ResultsListSearch>
+    <LastPlatformName>Free Tools</LastPlatformName>
+    <AreaTextPlatform>Customer service software that helps you conduct seamless onboarding, enable flexible customer support, and deepen customer relationships at scale.</AreaTextPlatform>
+
+    <!-- Path of Directories -->
+    <ImageRepo>E:\Automation\GlobalProject_HubSpot\ImageRepository\</ImageRepo>
+    <DDTFile_TextSearch>./DDTFiles/textForSearch.csv</DDTFile_TextSearch>
+    <DDTFile_Resolutions>./DDTFiles/resolutionsOfDisplay.csv</DDTFile_Resolutions>
+
+</Environment>
