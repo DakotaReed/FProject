@@ -59,11 +59,11 @@ public class HubSpotWeb extends CommonOps {
         Verifications.verifyDisplAndEnablOfElements(WebFlows.findAllLinksInContainer(hubSpot_ResourcesMenu.container_Resources));
     }
 
-    @Test(description = "Test 07: Verify Same y_Axis 'Products&Plans', 'Bundles'")
-    @Description("Verify same y_axis of 'Products&Plans', 'Bundles' MAXSIZE window")
+    @Test(description = "Test 07: Verify Same y_Axis 'Professional', 'Enterprise'")
+    @Description("Verify same y_axis of 'Professional', 'Enterprise' MAXSIZE window")
     public void Test07_verifySameY_axisProductsAndBundles() {
         UIActions.click(hubSpot_Home.btn_Pricing);
-        Verifications.verifySameY_axis(UIActions.getY_AxisOfElement(hubSpot_Pricing.link_ProductsAndPlans), UIActions.getY_AxisOfElement(hubSpot_Pricing.link_Bundles));
+        Verifications.verifySameY_axis(UIActions.getY_AxisOfElement(hubSpot_Pricing.versionsToBuy.get(0)), UIActions.getY_AxisOfElement(hubSpot_Pricing.versionsToBuy.get(1)));
     }
 
     @Test(description = "Test 08: Verify Last Platform Name")
